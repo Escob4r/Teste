@@ -32,7 +32,7 @@ test('snapshot', () => {
 
 test('text button login', () => {
     const text = tree.root.findByProps({testID: 'textButton'}).props
-    expect(text.children).toEqual('TEU CU')
+    expect(text.children).toEqual('Entrar')
 });
 
 test('button click', () => {
